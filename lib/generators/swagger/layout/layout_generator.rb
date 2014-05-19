@@ -8,7 +8,8 @@ module Swagger
       end
 
       def create_swagger_layout        
-        template 'swagger.html.haml', File.join('app', 'views', 'layouts', 'swagger.html.haml')
+        # template 'swagger.html.haml', File.join('app', 'views', 'layouts', 'swagger.html.haml')
+        puts options
       end        
     end
   end
