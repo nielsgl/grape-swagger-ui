@@ -6,12 +6,12 @@ require 'grape-swagger-ui/version'
 Gem::Specification.new do |gem|
   gem.name          = "grape-swagger-ui"
   gem.version       = Grape::Swagger::Ui::VERSION
-  gem.authors       = ["Klaas Endrikat"]
-  gem.email         = ["klaas.endrikat@googlemail.com"]
+  gem.authors       = ["Niels van Galen Last"]
+  gem.email         = ["nvangalenlast@gmail.com"]
   gem.description   = %q{swagger ui js integration for grape and grape-swagger}
   gem.summary       = %q{swagger ui js integration for grape and grape-swagger}
   gem.license       = 'MIT'
-  gem.homepage      = "https://github.com/kendrikat/grape-swagger-ui"
+  gem.homepage      = "https://github.com/nielsgl/grape-swagger-ui"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
